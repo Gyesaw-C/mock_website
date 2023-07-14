@@ -1,0 +1,38 @@
+body{
+  background-color: #fddfdf;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+  position: sticky;
+  font-weight: 50px;
+
+}
+
+li, a{
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li, a:visited{
+  color: darkgreen;
+}
+
+h2{
+  position: flex;
+  justify-content: center;
+}
+
+#karate{
+  position: flex;
+  justify-content: right;
+}
